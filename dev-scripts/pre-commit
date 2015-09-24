@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# Enable this pre-commit hook by running 'make githooks' from the base repo directory
+
+# Check for common whitespace errors (See http://git-scm.com/docs/git-diff)
+git diff --cached --check
+code=$?
+if [ $code -ne 0 ]; then
+	echo
+	echo "Your changes introduced whitespace errors!"
+	exit $code
+fi;
+
+# Check for PHP syntax errors using PHP's built-in lint function
+RET1=$(git diff-index --cached --full-index --diff-filter=ACMRTUXB HEAD | grep -E '.(php)$' | {
+	while read i; do
+		NEW_HASH=$(echo $i | awk '{ print $4 }')
+		FILE_NAME=$(echo $i | awk '{ print $6 }')
+		TMP=$(git cat-file -p $NEW_HASH | php -l 2>/dev/null)
+		if [ $? -ne 0 ]; then
+			echo '  '$FILE_NAME
+		fi
+	done
+})
+
+if [ $RET1 != "" ]; then
+	echo "At least one of your PHP file has a syntax error."
+	echo "Please check your file(s) with php -l for syntax errors, fix them, and try again!"
+	echo
+	echo $RET1
+	echo
+	exit 1
+fi
