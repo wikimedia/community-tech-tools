@@ -19,7 +19,7 @@ def main():
 		# f1.write( '\n\n' )
 
 
-def query( wiki, db ):
+def query( wiki, db, f1 ):
 	cur = db.cursor()
 	list1 = {}
 	q = """SELECT rc_user, rc_user_text, COUNT(*) AS edits
@@ -38,8 +38,11 @@ def query( wiki, db ):
 	if len( list1 ) > 25:
 		keys = random.sample( list1, 25 )
 		values = [list1[k] for k in keys]
-	f1.write( wiki + '\t' + str(len(res)) + '\n' )
-	for i in len(keys):
+	else:
+		keys = [x for x in list1]
+		values = [list1[x] for x in keys]
+	f1.write( wiki + '\t' + str(len(keys)) + '\n' )
+	for i in range(0, len(keys)):
 		f1.write( str(keys[i]) + '\t\t' + str(values[i]) + '\n')
 	f1.write( '\n\n\n' )
 
