@@ -13,7 +13,7 @@ def main():
 		f1.write( wiki + '\t' + str( len( res ) ) + '\n' )
 		for r in res:
 			if r is not None:
-				f1.write( r + '\n' )
+				f1.write( r + '\t' + res[r] + '\n' )
 			else:
 				f1.write( 'None \t This user is None! \n ')
 		f1.write( '\n\n' )
@@ -21,7 +21,7 @@ def main():
 
 def query( wiki, db ):
 	cur = db.cursor()
-	list1 = set()
+	list1 = {}
 	q = """SELECT rc_user, rc_user_text, COUNT(*) AS edits
 		   FROM recentchanges
 		   WHERE rc_bot = 1
@@ -29,10 +29,10 @@ def query( wiki, db ):
 		   ORDER BY edits DESC
 		   LIMIT 100
 		"""
-	cur.execute( q )
+	cur.execute(q)
 
 	for row in cur.fetchall():
-		list1.add( row[1] )
+		list1[str(row[1])] = str(row[2])
 
 	print len( list1 )
 	if len( list1 ) > 25:
