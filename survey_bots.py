@@ -18,11 +18,8 @@ def main():
 
 
 def query( wiki, db ):
-
 	cur = db.cursor()
-
 	list1 = set()
-
 	q = """SELECT rc_user, rc_user_text, COUNT(*) AS edits
 		   FROM recentchanges
 		   WHERE rc_bot = 1
@@ -30,7 +27,7 @@ def query( wiki, db ):
 		   ORDER BY edits DESC
 		   LIMIT 100
 		"""
-		cur.execute()
+	cur.execute()
 
 	for row in cur.fetchall():
 		list1.add( row[1] )
