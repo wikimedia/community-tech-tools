@@ -10,7 +10,7 @@ def main():
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
-		f1.write( wiki + '\t' + len( res ) + '\n' )
+		f1.write( wiki + '\t' + str( len( res ) ) + '\n' )
 		for r in res:
 			if r is not None:
 				f1.write( r + '\n' )
