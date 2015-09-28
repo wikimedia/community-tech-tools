@@ -10,7 +10,7 @@ def main():
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
-		if res > 25:
+		if len( res ) > 25:
 			res = random.sample( res, 25 )
 		f1.write( wiki + '\n' )
 		for r in res:
