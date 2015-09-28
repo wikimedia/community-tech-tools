@@ -9,14 +9,14 @@ def main():
 	
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
-		res = query( wiki, db )
-		f1.write( wiki + '\t' + str( len( res ) ) + '\n' )
-		for r in res:
-			if r is not None:
-				f1.write( r + '\t' + res[r] + '\n' )
-			else:
-				f1.write( 'None \t This user is None! \n ')
-		f1.write( '\n\n' )
+		query( wiki, db, f1 )
+		# f1.write( wiki + '\t' + str( len( res ) ) + '\n' )
+		# for r in res:
+		# 	if r is not None:
+		# 		f1.write( r + '\t' + res[r] + '\n' )
+		# 	else:
+		# 		f1.write( 'None \t This user is None! \n ')
+		# f1.write( '\n\n' )
 
 
 def query( wiki, db ):
@@ -36,7 +36,11 @@ def query( wiki, db ):
 
 	print len( list1 )
 	if len( list1 ) > 25:
-		return random.sample( list1, 25 )
-	return list1
+		keys = random.sample( list1, 25 )
+		values = [list1[k] for k in keys]
+	f1.write( wiki + '\t' + str(len(res)) + '\n' )
+	for i in len(keys):
+		f1.write( str(keys[i]) + '\t\t' + str(values[i]) + '\n')
+	f1.write( '\n\n\n' )
 
 main()
