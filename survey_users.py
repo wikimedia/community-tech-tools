@@ -5,7 +5,7 @@ from config import *
 def main():
 
 	wikis = ['ar', 'ru', 'en', 'fr', 'ja', 'de', 'commons', 'es', 'zh', 'pt']
-	f1 = open( 'result.txt', 'w' )
+	f1 = open( 'survey_users.txt', 'w' )
 	
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
