@@ -27,7 +27,7 @@ def query( wiki, db ):
 		   ORDER BY edits DESC
 		   LIMIT 100
 		"""
-	cur.execute()
+	cur.execute( q )
 
 	for row in cur.fetchall():
 		list1.add( row[1] )
