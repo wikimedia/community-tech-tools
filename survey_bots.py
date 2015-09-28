@@ -32,8 +32,8 @@ def query( wiki, db ):
 		"""
 		cur.execute()
 
-		for row in cur.fetchall():
-			list1.add( row[1] )
+	for row in cur.fetchall():
+		list1.add( row[1] )
 
 	print len( list1 )
 	return list1
