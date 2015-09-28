@@ -1,271 +1,282 @@
 ar	19
-AboHeidiBot
-MineoBot
-ASammourBot
-EmausBot
-ElphiBot
-ZkBot
-AvicBot
-OKBot
-Xqbot
-CommonsDelinker
-MediaWiki message delivery
-MajedBot
-MaraBot
-Dexbot
-タチコマ robot
-YiFeiBot
-JackieBot
-MenoBot
-SHBot
+AboHeidiBot		1059
+MineoBot		29146
+ASammourBot		66744
+EmausBot		1631
+ElphiBot		1039
+ZkBot		47795
+AvicBot		228
+OKBot		2
+Xqbot		1571
+CommonsDelinker		402
+MediaWiki message delivery		375
+MajedBot		998
+MaraBot		24144
+Dexbot		95
+タチコマ robot		1247
+YiFeiBot		540
+JackieBot		2
+MenoBot		33140
+SHBot		46221
+
 
 
 ru	25
-Melirius
-ZsergheiBot
-SuggestBot
-Sealle
-Robiteria
-Dibot
-QBA-bot
-Rubinbot
-AbiyoyoBot
-Bot89
-MediaWiki message delivery
-Бот Хао Асакура
-YiFeiBot
-Zero Children Bot
-TemirovBot
-JackieBot
-Citing Bot
-SpadeBot
-Torin
-CommonsDelinker
-DimaABot
-W2Bot
-EmausBot
-Thecakeisalie.bot
-OLMBot
+AJZBot		211
+Robiteria		6
+DimaABot		844
+Torin		3
+Елена Славнова		13
+Well-Informed Optimist		1
+WinterheartBot		210
+Citing Bot		167
+Dibot		1239
+NirvanaBot		9579
+CommonsDelinker		1210
+EmausBot		1564
+Zero Children Bot		206
+GlovackiBot		300
+Roboconvallaria		24
+AbiyoyoBot		6108
+HeimdallBot		255
+Rubinbot II		187
+MediaWiki message delivery		87
+Botalo		156
+SpadeBot		8306
+ZsergheiBot		54
+YiFeiBot		3995
+Structor		1
+AKBot		104
+
 
 
 en	25
-RscprinterBot
-KasparBot
-DRN clerk bot
-Monkbot
-BernsteinBot
-StatisticianBot
-CommonsDelinker
-WP 1.0 bot
-B-bot
-InceptionBot
-RjwilmsiBot
-EarwigBot
-HBC AIV helperbot5
-AnomieBOT
-AnomieBOT III
-TFA Protector Bot
-RussBot
-DYKUpdateBot
-NationalRegisterBot
-BU RoBOT
-Scsbot
-Mathbot
-EranBot
-EmausBot
-Mr.Z-bot
+BG19bot		21279
+HBC AIV helperbot5		3366
+Amalthea (bot)		2179
+MenoBot		2075
+InceptionBot		18726
+HBC AIV helperbot		817
+MediaWiki default		15
+SporkBot		714
+SpaceFactsBot		35
+LivingBot		412
+MilHistBot		118
+B-bot		4116
+ImageRemovalBot		1185
+HasteurBot		859
+Reports bot		10944
+JL-Bot		1477
+Legobot		11251
+ClueBot III		6639
+Bibcode Bot		567
+HotArticlesBot		472
+TAP Bot		408
+TFA Protector Bot		33
+AnomieBOT		28805
+Filedelinkerbot		1698
+CorenSearchBot		978
+
 
 
 fr	25
-Louperibot
-ProméthéeBot
-NaggoBot
-Xqbot
-Arkbot
-HunsuBot
-Blockbot
-Ir4ubot
-MediaWiki message delivery
-KasparBot
-FBot
-OrlodrimBot
-HerculeBot
-LinedBot
-GhosterBot
-DiliBot
-CommonsDelinker
-InfoRobBot
-JackieBot
-Roland45-Bot
-EmausBot
-AntonyB-Bot
-BeBot
-ZéroBot
-Sebk-Bot
+CommonsDelinker		1355
+PastilleBot		3226
+ZéroBot		13184
+InfoRobBot		136
+Babel AutoCreate		1
+Tinm bot		251
+MediaWiki message delivery		387
+GhosterBot		959
+HerculeBot		1688
+NaggoBot		4856
+Salebot		3756
+JackieBot		11
+Flow talk page manager		8
+FBot		143
+DSisyphBot		11327
+Ir4ubot		5
+Blockbot		28037
+HAL		6072
+Loveless		22531
+Bub's wikibot		619
+BeBot		5
+Sebk-Bot		52
+LuaBot		1637
+Rpabot		1262
+Xqbot		1595
+
 
 
 ja	25
-Cpro
-JailbreakHacker
-Xqbot
-JPJHpedia
-YiFeiBot
-KIBODOU
-Y-dash
-Trgbot
-野田伊佐也
-タチコマ robot
-Si-take.
-KatotaBOT
-Tribot
-JBJHJP
-BX123
-Rain night-AWB
-Dexbot
-Bellcricket
-JPfuker
-Igbot
-JPJHrion
-リオの街はカーニバル
-Kanjybot
-Jailbreak'JP
-NyokiBot
+YiFeiBot		192
+KasparBot		107
+Cpro		12
+JPJHyotowani		9
+JPfuker		7
+Dexbot		5
+Xqbot		336
+Morning river		3
+Igbot		223
+Trgbot		2833
+Y-dash		10
+JailbreakHacker		7
+JBJHJP		1
+BX123		3
+Si-take.		84
+TLCRACKER		4
+KIBODOU		1
+百田尚樹の精虫		3
+JackieBot		14
+Asanagi-bot		357
+EmausBot		257
+SpBot		2
+JPJHrion		1
+Kanjybot		1
+NyokiBot		602
+
 
 
 de	25
-AvicBot
-MediaWiki message delivery
-Yellowbot
-MerlBot
-JackieBot
-RFF-Bot
-EfenBot
-ErfgoedBot
-Dateientlinkerbot
-Infinite0694
-Krdbot
-CommonsDelinker
-Superzerocool
-TaxonBot
-SpBot
-YiFeiBot
-Luke081515Bot
-Sebbot
-CactusBot
-CopperBot
-APPERbot
-EmausBot
-CamelBot
-Xqbot
-タチコマ robot
+CamelBot		556
+CopperBot		2
+JackieBot		4
+Dateientlinkerbot		93
+BeriBot		170
+MediaWiki message delivery		467
+GiftBot		4735
+AvicBot		280
+タチコマ robot		15
+Dexbot		110
+Wdwdbot		62
+NikkiBot		23976
+EfenBot		13
+Sebbot		672
+Krdbot		5292
+APPERbot		6506
+DenkmalBot		227
+CactusBot		531
+ErfgoedBot		98
+EmausBot		1665
+YiFeiBot		2398
+Infinite0694		1
+Revert-Statistik		2582
+TaxonBot		7739
+Luke081515Bot		1571
+
 
 
 commons	25
-VICbot
-AHbot
-QICbot
-Cyberbot I
-TaxonBot
-SteinsplitterBot
-Strainubot
-Faebot
-UWCTransferBot
-OgreBot 2
-SpadeBot
-McPot
-Hazard-Bot
-KrinkleBot
-SpBot
--revi
-Avicennasis
-Base
-Nasjonalbiblioteket-bot
-タチコマ robot
-WLMUploadVorlageBot
-Jean-Frédéric
-Dexbot
-SchlurcherBot
-Wnal1850
+WLMUploadVorlageBot		82
+FuzzyBot		1070
+Alan		1
+RomaineBot		143
+Fundación Joaquín Díaz		4692
+FlickreviewR 2		275242
+RussBot		20636
+BotMultichill		308
+Hazard-Bot		43
+BotAdventures		22440
+QICbot		4959
+DschwenBot		1763
+Base		8
+Picasa Review Bot 2		74
+Strainubot		11
+FPCBot		1060
+IlyaBot		131
+Wdwdbot		2805
+Steinsplitter		1
+SpBot		281
+PomologicalBot		7526
+Tomas zelarayan		1
+XRayBot		1926
+ArchiverBot		1787
+AHbot		512
+
 
 
 es	25
-PatruBOT
-Ralgisbot
-BOT-Superzerocool
-JackieBot
-Xqbot
-EmBOTellado
-Jembot
-PLbot
-EmausBot
-FrescoBot
-MediaWiki default
-InteliBOT
-CommonsDelinker
-PaintBot
-MediaWiki message delivery
-Bernard
-CoBot
-Infinite0694
-タチコマ robot
-KLBot2
-TronaBot
-BOTzilla
-BOTarate
-Grillitus
-NinoBot
+EmBOTellado		2707
+BenjaBot		2055
+MetroBot		15460
+タチコマ robot		100
+Grillitus		4
+BOT-Superzerocool		2692
+PLbot		78908
+MediaWiki message delivery		158
+TronaBot		61
+JackieBot		84
+Xqbot		2487
+Infinite0694		3
+FrescoBot		2027
+MediaWiki default		38
+KLBot2		90
+Ralgisbot		2
+PatruBOT		43
+EmausBot		415
+Invadibot		4309
+Bernard		95
+NinoBot		19
+InteliBOT		8
+PaintBot		341
+BOTzilla		11
+CoBot		878
 
 
-zh	22
-和平-bot
-Jimmy-bot
-Liangent-bot
-タチコマ robot
-Addis-Bot
-Liangent-adminbot
-Cewbot
-Antigng-bot
-Xqbot
-Jimmy Xu
-Dexbot
-Jimmy-abot
-YiFeiBot
-Infinite0694
-AddisWang
-MediaWiki message delivery
-KasparBot
-施隆權
-Eagerbot
-EmausBot
-JackieBot
-AvicBot
+
+zh	23
+和平-bot		16783
+Jimmy-bot		3193
+Liangent-bot		1360
+タチコマ robot		32
+Addis-Bot		3214
+Liangent-adminbot		62
+Cewbot		141
+Antigng-bot		29437
+Xqbot		730
+Jimmy Xu		10
+Dexbot		29
+Jimmy-abot		4302
+YiFeiBot		96
+Infinite0694		5
+AvicBot		387
+MediaWiki message delivery		126
+NikkiBot		63043
+KasparBot		947
+施隆權		6
+Eagerbot		1127
+EmausBot		110
+JackieBot		24
+AddisWang		3998
+
 
 
 pt	25
-Reinaldonho
-Pequeno xurucuchu
-EmausBot
-AnnaRMarinho
-MediaWiki default
-Cavalomanco2015
-FernandoMáquinaForlam
-Selococachuera
-Leon saudanha
-Elvio Rodrigo Cavani da Silva
-Kelson Dollar
-タチコマ robot
-PauloEduardo
-Samuel arthur r. r. alves
-None 	 This user is None! 
- Badwikizeze
-Morenno O Enganador
-Salebot
-Xqbot
-Alch Bot
-Antero de Quintal
-Dexbot
-JackieBot
-Jujulindinhaa
-SouzaJ
+Cavalomanco2015		1
+QUALIDADE 9001		2
+Antero de Quintal		35
+JackieBot		27
+Alch Bot		7523
+Dexbot		26193
+Cabecaoca.html		1
+None		2
+NikkiBot		93197
+Leon saudanha		101
+ZECA MISSALA		1
+Elvio Rodrigo Cavani da Silva		1
+Reinaldonho		2
+Kelson Dollar		2
+SouzaJ		1
+He7d3r		236
+Aleth Bot		950
+タチコマ robot		10
+Samuel arthur r. r. alves		1
+AvicBot		768
+Badwikizeze		2
+MediaWiki default		40
+PauloEduardo		2
+Pequeno xurucuchu		1
+Morenno O Enganador		1
+
 
 
