@@ -11,10 +11,10 @@ def main():
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
 		# res = random.sample( res, 25 )
-		f1.write( wiki + '\n' )
-		for r in res:
-			f1.write( r + '\n' )
-		f1.write( '\n\n' )
+		# f1.write( wiki + '\n' )
+		# for r in res:
+		# 	f1.write( r + '\n' )
+		# f1.write( '\n\n' )
 
 
 def query( wiki, db ):
