@@ -1,0 +1,271 @@
+ar	19
+AboHeidiBot
+MineoBot
+ASammourBot
+EmausBot
+ElphiBot
+ZkBot
+AvicBot
+OKBot
+Xqbot
+CommonsDelinker
+MediaWiki message delivery
+MajedBot
+MaraBot
+Dexbot
+タチコマ robot
+YiFeiBot
+JackieBot
+MenoBot
+SHBot
+
+
+ru	25
+Melirius
+ZsergheiBot
+SuggestBot
+Sealle
+Robiteria
+Dibot
+QBA-bot
+Rubinbot
+AbiyoyoBot
+Bot89
+MediaWiki message delivery
+Бот Хао Асакура
+YiFeiBot
+Zero Children Bot
+TemirovBot
+JackieBot
+Citing Bot
+SpadeBot
+Torin
+CommonsDelinker
+DimaABot
+W2Bot
+EmausBot
+Thecakeisalie.bot
+OLMBot
+
+
+en	25
+RscprinterBot
+KasparBot
+DRN clerk bot
+Monkbot
+BernsteinBot
+StatisticianBot
+CommonsDelinker
+WP 1.0 bot
+B-bot
+InceptionBot
+RjwilmsiBot
+EarwigBot
+HBC AIV helperbot5
+AnomieBOT
+AnomieBOT III
+TFA Protector Bot
+RussBot
+DYKUpdateBot
+NationalRegisterBot
+BU RoBOT
+Scsbot
+Mathbot
+EranBot
+EmausBot
+Mr.Z-bot
+
+
+fr	25
+Louperibot
+ProméthéeBot
+NaggoBot
+Xqbot
+Arkbot
+HunsuBot
+Blockbot
+Ir4ubot
+MediaWiki message delivery
+KasparBot
+FBot
+OrlodrimBot
+HerculeBot
+LinedBot
+GhosterBot
+DiliBot
+CommonsDelinker
+InfoRobBot
+JackieBot
+Roland45-Bot
+EmausBot
+AntonyB-Bot
+BeBot
+ZéroBot
+Sebk-Bot
+
+
+ja	25
+Cpro
+JailbreakHacker
+Xqbot
+JPJHpedia
+YiFeiBot
+KIBODOU
+Y-dash
+Trgbot
+野田伊佐也
+タチコマ robot
+Si-take.
+KatotaBOT
+Tribot
+JBJHJP
+BX123
+Rain night-AWB
+Dexbot
+Bellcricket
+JPfuker
+Igbot
+JPJHrion
+リオの街はカーニバル
+Kanjybot
+Jailbreak'JP
+NyokiBot
+
+
+de	25
+AvicBot
+MediaWiki message delivery
+Yellowbot
+MerlBot
+JackieBot
+RFF-Bot
+EfenBot
+ErfgoedBot
+Dateientlinkerbot
+Infinite0694
+Krdbot
+CommonsDelinker
+Superzerocool
+TaxonBot
+SpBot
+YiFeiBot
+Luke081515Bot
+Sebbot
+CactusBot
+CopperBot
+APPERbot
+EmausBot
+CamelBot
+Xqbot
+タチコマ robot
+
+
+commons	25
+VICbot
+AHbot
+QICbot
+Cyberbot I
+TaxonBot
+SteinsplitterBot
+Strainubot
+Faebot
+UWCTransferBot
+OgreBot 2
+SpadeBot
+McPot
+Hazard-Bot
+KrinkleBot
+SpBot
+-revi
+Avicennasis
+Base
+Nasjonalbiblioteket-bot
+タチコマ robot
+WLMUploadVorlageBot
+Jean-Frédéric
+Dexbot
+SchlurcherBot
+Wnal1850
+
+
+es	25
+PatruBOT
+Ralgisbot
+BOT-Superzerocool
+JackieBot
+Xqbot
+EmBOTellado
+Jembot
+PLbot
+EmausBot
+FrescoBot
+MediaWiki default
+InteliBOT
+CommonsDelinker
+PaintBot
+MediaWiki message delivery
+Bernard
+CoBot
+Infinite0694
+タチコマ robot
+KLBot2
+TronaBot
+BOTzilla
+BOTarate
+Grillitus
+NinoBot
+
+
+zh	22
+和平-bot
+Jimmy-bot
+Liangent-bot
+タチコマ robot
+Addis-Bot
+Liangent-adminbot
+Cewbot
+Antigng-bot
+Xqbot
+Jimmy Xu
+Dexbot
+Jimmy-abot
+YiFeiBot
+Infinite0694
+AddisWang
+MediaWiki message delivery
+KasparBot
+施隆權
+Eagerbot
+EmausBot
+JackieBot
+AvicBot
+
+
+pt	25
+Reinaldonho
+Pequeno xurucuchu
+EmausBot
+AnnaRMarinho
+MediaWiki default
+Cavalomanco2015
+FernandoMáquinaForlam
+Selococachuera
+Leon saudanha
+Elvio Rodrigo Cavani da Silva
+Kelson Dollar
+タチコマ robot
+PauloEduardo
+Samuel arthur r. r. alves
+None 	 This user is None! 
+ Badwikizeze
+Morenno O Enganador
+Salebot
+Xqbot
+Alch Bot
+Antero de Quintal
+Dexbot
+JackieBot
+Jujulindinhaa
+SouzaJ
+
+
