@@ -7,7 +7,3 @@ Given(/^I am on the "(.+)" page$/) do |article|
   article = article.gsub(/ /, '_')
   visit(ArticlePage, using_params: { article_name: article })
 end
-
-When(/^I click the browser back button$/) do
-  on(ArticlePage).back
-end
