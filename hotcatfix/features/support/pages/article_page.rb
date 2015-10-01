@@ -1,11 +1,12 @@
 class ArticlePage
-  include PageObject
+	include PageObject
 
-  page_url '<%=params[:article_name]%><%=params[:hash]%>'
+	page_url '<%=params[:article_name]%><%=params[:hash]%>'
 
-  # UI elements
-  a(:edit_link, text: 'Edit')
+	# UI elements
+	a(:edit_link, text: 'Edit')
+	a(:hotcat_link, class: 'hotcatlink')
 
-  # pre-content
-  h1(:first_heading, id: 'firstHeading')
+	# pre-content
+	h1(:first_heading, id: 'firstHeading')
 end
