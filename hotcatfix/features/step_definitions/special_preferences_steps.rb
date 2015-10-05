@@ -11,5 +11,11 @@ Then(/^I should see a HotCat checkbox$/) do
 end
 
 When(/^I check the HotCat checkbox$/) do
-	on(SpecialPreferencesPage).hotcat_checkbox_element.when_present.set(true)
+	on(SpecialPreferencesPage).hotcat_checkbox_element.when_present.check
+end
+
+When(/^I save the preferences$/) do
+	unless on(SpecialPreferencesPage).save_button_element.disabled?
+		on(SpecialPreferencesPage).save_button_element.click
+	end
 end

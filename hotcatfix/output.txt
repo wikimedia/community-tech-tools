@@ -1,0 +1,2821 @@
+ar.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m38.442s
+ar.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m35.489s
+ar.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m41.890s
+ar.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m29.149s
+ar.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m47.486s
+arz.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m55.798s
+as.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m31.199s
+av.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m41.318s
+azb.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m40.572s
+az.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m19.881s
+az.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m43.950s
+az.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m44.281s
+bd.wikimedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m30.708s
+bh.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m36.430s
+bjn.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m33.602s
+bn.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m33.976s
+bug.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m33.109s
+bxr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m39.885s
+ckb.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m36.910s
+de.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m28.280s
+de.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m32.539s
+de.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m35.664s
+de.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m29.325s
+de.wikivoyage.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m34.931s
+el.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m22.502s
+el.wikiversity.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m23.266s
+eo.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m22.622s
+eo.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m22.170s
+fa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.345s
+fa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m31.930s
+fa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m34.183s
+fa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m34.036s
+fa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m34.943s
+fa.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m35.951s
+fa.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m23.752s
+fa.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m39.860s
+fa.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m38.794s
+fa.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m32.421s
+fa.wikivoyage.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m44.233s
+fa.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m33.953s
+fi.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m30.314s
+fi.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m27.375s
+frp.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m27.367s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m27.708s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m29.940s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m31.176s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m56.258s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m20.500s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m23.933s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m20.952s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m26.018s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m22.701s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      browser window was closed (Watir::Exception::NoMatchingWindowFoundException)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m10.763s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      browser window was closed (Watir::Exception::NoMatchingWindowFoundException)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m11.231s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      browser window was closed (Watir::Exception::NoMatchingWindowFoundException)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+
+0 scenarios
+1 step (1 failed)
+0m7.841s
+fr.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      end of file reached (EOFError)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+
+0 scenarios
+1 step (1 failed)
+0m0.827s
+
+fr.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m26.296s
+fr.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m25.196s
+fr.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m42.197s
+fr.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m32.454s
+fr.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m28.782s
+fr.wikiversity.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.830s
+fr.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m28.660s
+fr.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.412s
+gag.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m29.550s
+gan.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m40.791s
+gu.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.277s
+gu.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.950s
+he.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m45.830s
+he.wikivoyage.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m59.613s
+hr.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m36.151s
+hu.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      timed out after 10 seconds, waiting for {:id=>"pt-logout", :tag_name=>"li"} to become present (Watir::Wait::TimeoutError)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m23.031s
+hu.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m30.062s
+hu.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m31.162s
+id.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.307s
+id.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m40.191s
+kaa.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.971s
+kbd.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m37.061s
+km.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m31.210s
+ksh.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m41.054s
+lb.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m25.521s
+lt.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m26.484s
+mg.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m27.921s
+mk.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m43.843s
+mk.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m42.806s
+mrj.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m39.879s
+mzn.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m41.090s
+no.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m24.394s
+no.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m27.751s
+no.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m27.136s
+nv.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m36.327s
+oc.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m30.216s
+oc.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.578s
+pl.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m28.106s
+pnt.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m25.682s
+pt.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m40.691s
+ro.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m45.397s
+ru.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m36.385s
+ru.wikimedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m28.453s
+ru.wiktionary.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m41.239s
+se.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.102s
+simple.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      timed out after 10 seconds, waiting for {:id=>"pt-logout", :tag_name=>"li"} to become present (Watir::Wait::TimeoutError)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m21.446s
+simple.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      timed out after 10 seconds, waiting for {:id=>"pt-logout", :tag_name=>"li"} to become present (Watir::Wait::TimeoutError)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m21.383s
+si.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m43.648s
+si.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.813s
+sl.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m32.276s
+sl.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m38.427s
+su.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.619s
+sv.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m23.471s
+sv.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m31.492s
+sv.wikiversity.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m32.434s
+ta.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.789s
+test2.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m33.289s
+test.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m29.805s
+tr.wikinews.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m28.900s
+tt.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m30.592s
+ur.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m53.106s
+ur.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m32.301s
+ur.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m34.237s
+ur.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m37.831s
+ur.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m44.737s
+ur.wikiquote.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:2:in `/^I should see a Gadgets tab$/'
+      features/hotcat.feature:8:in `Then I should see a Gadgets tab'
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 6 skipped, 2 passed)
+0m32.270s
+wikimania2010.wikimedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+      timed out after 10 seconds, waiting for {:id=>"pt-logout", :tag_name=>"li"} to become present (Watir::Wait::TimeoutError)
+      ./features/step_definitions/common_steps.rb:3:in `/^I am logged into the website$/'
+      features/hotcat.feature:4:in `Given I am logged into the website'
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 skipped)
+0m21.456s
+wo.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/special_preferences_steps.rb:10:in `/^I should see a HotCat checkbox$/'
+      features/hotcat.feature:10:in `Then I should see a HotCat checkbox'
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 4 skipped, 4 passed)
+0m31.266s
+yi.wikipedia.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m43.743s
+zh.wikibooks.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+      expected visible? to return true, got false (RSpec::Expectations::ExpectationNotMetError)
+      ./features/step_definitions/article_steps.rb:3:in `/^I should see the HotCat UI$/'
+      features/hotcat.feature:15:in `Then I should see the HotCat UI'
+
+Failing Scenarios:
+cucumber features/hotcat.feature:6 # Scenario: HotCat available
+
+1 scenario (1 failed)
+9 steps (1 failed, 8 passed)
+0m34.737s
+zh.wikisource.orgFeature: HotCat
+
+  Background:                          # features/hotcat.feature:3
+    Given I am logged into the website # features/step_definitions/common_steps.rb:1
+
+  Scenario: HotCat available                    # features/hotcat.feature:6
+    When I am on the "Special:Preferences" page # features/step_definitions/common_steps.rb:6
+    Then I should see a Gadgets tab             # features/step_definitions/special_preferences_steps.rb:1
+    When I click the Gadgets tab                # features/step_definitions/special_preferences_steps.rb:5
+    Then I should see a HotCat checkbox         # features/step_definitions/special_preferences_steps.rb:9
+    When I check the HotCat checkbox            # features/step_definitions/special_preferences_steps.rb:13
+    When I save the preferences                 # features/step_definitions/special_preferences_steps.rb:17
+    And I am on a random page                   # features/step_definitions/common_steps.rb:12
+    Then I should see the HotCat UI             # features/step_definitions/article_steps.rb:1
+
+1 scenario (1 passed)
+9 steps (9 passed)
+0m46.519s

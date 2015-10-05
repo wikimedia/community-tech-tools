@@ -1,6 +1,6 @@
 Given(/^I am logged into the website$/) do
 	#LoginPage is defined in mediawiki-selenium
-	visit(LoginPage).login_with(user, password, false)
+	visit(LoginPage).login_with(user, password)
 end
 
 When(/^I am on the "(.+)" page$/) do |article|

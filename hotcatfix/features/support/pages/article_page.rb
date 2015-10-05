@@ -5,7 +5,7 @@ class ArticlePage
 
 	# UI elements
 	a(:edit_link, text: 'Edit')
-	a(:hotcat_link, class: 'hotcatlink')
+	span(:hotcat_link, class: 'hotcatlink')
 
 	# pre-content
 	h1(:first_heading, id: 'firstHeading')
