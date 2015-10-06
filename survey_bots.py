@@ -10,13 +10,6 @@ def main():
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		query( wiki, db, f1 )
-		# f1.write( wiki + '\t' + str( len( res ) ) + '\n' )
-		# for r in res:
-		# 	if r is not None:
-		# 		f1.write( r + '\t' + res[r] + '\n' )
-		# 	else:
-		# 		f1.write( 'None \t This user is None! \n ')
-		# f1.write( '\n\n' )
 
 
 def query( wiki, db, f1 ):
