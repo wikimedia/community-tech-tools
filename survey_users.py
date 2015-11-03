@@ -6,7 +6,7 @@ def main():
 
 	wikis = ['ar', 'ru', 'en', 'fr', 'ja', 'de', 'commons', 'es', 'zh', 'pt']
 	f1 = open( 'survey_users.txt', 'w' )
-	
+
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
@@ -32,7 +32,8 @@ def query( wiki, db ):
 		q = """SELECT rc_user, rc_user_text, SUM(CASE WHEN rc_namespace IN (%s) THEN 1 ELSE 0 END) AS hits
 			   FROM recentchanges
 			   WHERE rc_bot = 0
-			   GROUP by rc_user
+			   AND rc_user NOT IN ( SELECT DISTINCT ug_user FROM ug_groups WHERE ug_group = 'bot' )
+			   GROUP by rc_user_text
 			   ORDER BY hits DESC
 			   LIMIT 100;
 			"""

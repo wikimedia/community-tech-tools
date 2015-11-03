@@ -6,7 +6,7 @@ def main():
 
 	wikis = ['ar', 'ru', 'en', 'fr', 'ja', 'de', 'commons', 'es', 'zh', 'pt']
 	f1 = open( 'survey_bots.txt', 'w' )
-	
+
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		query( wiki, db, f1 )
@@ -18,7 +18,7 @@ def query( wiki, db, f1 ):
 	q = """SELECT rc_user, rc_user_text, COUNT(*) AS edits
 		   FROM recentchanges
 		   WHERE rc_bot = 1
-		   GROUP by rc_user
+		   GROUP by rc_user_text
 		   ORDER BY edits DESC
 		   LIMIT 100
 		"""
