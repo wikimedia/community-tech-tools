@@ -5,13 +5,14 @@ from config import *
 def main():
 
 	wikis = ['ar', 'ru', 'en', 'fr', 'ja', 'de', 'commons', 'es', 'zh', 'pt']
+	# wikis = ['test']
 	f1 = open( 'survey_users.txt', 'w' )
 
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
 		res = random.sample( res, 100 )
-		f1.write( wiki + '\n' )
+		f1.write( '------------' +  wiki + '------------\n' )
 		for r in res:
 			f1.write( r + '\n' )
 		f1.write( '\n\n' )
