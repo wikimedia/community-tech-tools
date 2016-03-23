@@ -4,9 +4,9 @@ from config import *
 
 def main():
 
-	wikis = ['ar', 'ru', 'en', 'fr', 'ja', 'de', 'commons', 'es', 'zh', 'pt']
+	wikis = ['en']
 	# wikis = ['test']
-	f1 = open( 'survey_users.txt', 'w' )
+	f1 = open( 'survey_users_basic.txt', 'w' )
 
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
@@ -19,12 +19,7 @@ def main():
 
 
 def query( wiki, db ):
-	if wiki == 'ru':
-		namespaces = [ [0, 6, 102], [8, 10, 828], [4, 14, 100, 104] ]
-	else:
-		# Three namespace groups: content, technical, and curation
-		# [main, file, draft], [mediawiki, template, module], [project, category, portal, wikiproject]
-		namespaces = [ [0, 6, 118], [8, 10, 828], [4, 14, 100, 102] ]
+	namespaces = [ [0, 6, 118] ]
 	cur = db.cursor()
 
 	list1 = set()
