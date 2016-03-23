@@ -35,7 +35,7 @@ def query( wiki, db ):
 		q = """SELECT rc_user, rc_user_text, SUM(CASE WHEN rc_namespace IN (%s) THEN 1 ELSE 0 END) AS hits
 			   FROM recentchanges
 			   WHERE rc_bot = 0
-			   AND rc_user NOT IN ( SELECT DISTINCT ug_user FROM ug_groups WHERE ug_group = 'bot' )
+			   AND rc_user NOT IN ( SELECT DISTINCT ug_user FROM user_groups WHERE ug_group = 'bot' )
 			   GROUP by rc_user_text
 			   ORDER BY hits DESC
 			   LIMIT 100;
