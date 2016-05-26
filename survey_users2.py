@@ -6,7 +6,7 @@ def main():
 
 	wikis = ['ru', 'pt', 'fr', 'ja', 'de', 'it', 'nl', 'pl']
 	# wikis = ['test']
-	f1 = open( 'survey_user2s.txt', 'w' )
+	f1 = open( 'survey_users2.txt', 'w' )
 
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
