@@ -4,14 +4,14 @@ from config import *
 
 def main():
 
-	wikis = ['ru', 'pt', 'fr', 'ja', 'de', 'it', 'nl', 'pl']
+	wikis = ['en', 'es']
 	# wikis = ['test']
 	f1 = open( 'survey_users2.txt', 'w' )
 
 	for wiki in wikis:
 		db = MySQLdb.connect( host = wiki + 'wiki.labsdb', user = credentials['user'], passwd = credentials['pass'], db = wiki + 'wiki_p' )
 		res = query( wiki, db )
-		res = random.sample( res, 500 )
+		res = random.sample( res, 1000 )
 		f1.write( '------------' +  wiki + '------------\n' )
 		for r in res:
 			f1.write( r + '\n' )
@@ -35,7 +35,7 @@ def query( wiki, db ):
 			   AND rc_user NOT IN ( SELECT DISTINCT ug_user FROM user_groups WHERE ug_group = 'bot' )
 			   GROUP by rc_user_text
 			   ORDER BY hits DESC
-			   LIMIT 500;
+			   LIMIT 1000;
 			"""
 		cur.execute( q % placeholders, tuple(n) )
 
